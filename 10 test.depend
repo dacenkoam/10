@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1607846769 source:c:\users\dacen\onedrive\рабочий стол\си\10 test\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
