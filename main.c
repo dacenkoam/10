@@ -21,6 +21,7 @@ int main(){
     /////////////////////
     FILE *out= fopen("output.txt", "w");
     fclose(out);
+    fclose(in);
     out= fopen("output.txt", "a");
     fputs("Исходная строка:\n", out);
     fputs(str, out);
@@ -92,7 +93,7 @@ int main(){
     puts(ress);
     fputs("\n\nВ каждом слове каждая буква встречается не менее двух раз:\n", out);
     fputs(ress, out);
-
+    fclose(out);
 
 }
 
